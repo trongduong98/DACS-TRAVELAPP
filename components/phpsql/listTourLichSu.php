@@ -10,7 +10,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
  die("Connection failed: " . $conn->connect_error);
 }
-$sql = "SELECT * FROM tour_app WHERE classify='hot'";
+$sql = "SELECT * FROM tour_app WHERE classify='LichSu'";
 $result = $conn->query($sql);
 // Chuẩn bị mảng rỗng
 $tours = [];
