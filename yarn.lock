@@ -1021,6 +1021,13 @@
   resolved "https://registry.yarnpkg.com/@react-navigation/material-bottom-tabs/-/material-bottom-tabs-5.1.6.tgz#dbaa7e180b8bafca08c09d828700ca9b31082ab9"
   integrity sha512-m2WdHHx82IEOsPJJWHgOM7+70BEuvGb8GzL15/5lwdR1pjWEMGZIB/fD2thSEe1edqjryhwOh99Kq8lBAee/IA==
 
+"@react-navigation/material-top-tabs@^5.1.6":
+  version "5.2.14"
+  resolved "https://registry.yarnpkg.com/@react-navigation/material-top-tabs/-/material-top-tabs-5.2.14.tgz#7842880f6c76e8237dd475e3315f448efd0e058c"
+  integrity sha512-N0jI5YOamsi8a5r0bmyKl/d7hWnStCASz8u1wbTFXjwUMUchPi2KGkaR36cxIsm3YXBkF7X/JIVHJE+DlEn78Q==
+  dependencies:
+    color "^3.1.2"
+
 "@react-navigation/native@^5.0.10":
   version "5.0.10"
   resolved "https://registry.yarnpkg.com/@react-navigation/native/-/native-5.0.10.tgz#bbb128cd963138d90f8327519088ae896fb22b4d"
@@ -4204,9 +4211,9 @@ lodash.unescape@4.0.1:
   integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
 
 lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -5256,7 +5263,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5332,6 +5339,13 @@ react-is@^16.7.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-native-animatable@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/react-native-animatable/-/react-native-animatable-1.3.3.tgz#a13a4af8258e3bb14d0a9d839917e9bb9274ec8a"
+  integrity sha512-2ckIxZQAsvWn25Ho+DK3d1mXIgj7tITkrS4pYDvx96WyOttSvzzFeQnM2od0+FUMzILbdHDsDEqZvnz1DYNQ1w==
+  dependencies:
+    prop-types "^15.7.2"
+
 react-native-drawer@2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/react-native-drawer/-/react-native-drawer-2.5.1.tgz#08b9314184f48c724f1b467f8859797369798654"
@@ -5357,12 +5371,19 @@ react-native-gesture-handler@^1.6.0:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
+react-native-input-spinner@^1.2.10:
+  version "1.2.14"
+  resolved "https://registry.yarnpkg.com/react-native-input-spinner/-/react-native-input-spinner-1.2.14.tgz#2136c05879f15f5f37866101af2e4accacc4683b"
+  integrity sha512-UHDCWgu6dMpDCePf96s/XohJPcwl1zMHLiwwQ9itCw4xN2tUX1L9Up45HyQrhGtEz0okpJxnxSs7a7VZ1tibeA==
+  dependencies:
+    prop-types "^15.7.2"
+
 react-native-iphone-x-helper@^1.0.3, react-native-iphone-x-helper@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.1.tgz#645e2ffbbb49e80844bb4cbbe34a126fda1e6772"
   integrity sha512-/VbpIEp8tSNNHIvstuA3Swx610whci1Zpc9mqNkqn14DkMbw+ORviln2u0XyHG1kPvvwTNGZY6QpeFwxYaSdbQ==
 
-react-native-keyboard-aware-scroll-view@0.9.1:
+react-native-keyboard-aware-scroll-view@0.9.1, react-native-keyboard-aware-scroll-view@^0.9.1:
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/react-native-keyboard-aware-scroll-view/-/react-native-keyboard-aware-scroll-view-0.9.1.tgz#9e54b565a5f19b30bed12221d48921781f7630af"
   integrity sha512-tBZ8rmjELN0F6t5UBp5CW3NYmZXgVnJSzVCssv/OqG2t6kiB+OUTqxNvUP24K+HARX4H+XaW0aEJSFQkQCv6KA==
@@ -5403,6 +5424,11 @@ react-native-screens@^2.3.0:
   dependencies:
     debounce "^1.2.0"
 
+react-native-tab-view@^2.13.0:
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-2.15.0.tgz#71b0c87f7cb2cde1d740f7130c17f213f2cbcaa0"
+  integrity sha512-rCQPNp0N4t2IZHTVpdb/eddJ9kTLC8QlD/8Ce1+z2Fk3Evk0HPhuhTAW3mfa+thzRXkXYxxsS7QcIjJKs2Wu3w==
+
 react-native-vector-icons@^6.6.0:
   version "6.6.0"
   resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-6.6.0.tgz#66cf004918eb05d90778d64bd42077c1800d481b"
@@ -5411,6 +5437,13 @@ react-native-vector-icons@^6.6.0:
     lodash "^4.0.0"
     prop-types "^15.6.2"
     yargs "^13.2.2"
+
+react-native-view-more-text@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-view-more-text/-/react-native-view-more-text-2.1.0.tgz#98370d9006466bead70f5ea5527cebfb2b44d493"
+  integrity sha512-zmYfgXfIKZDrGpzm/aTfiRn6dRp15MWvil6NsmZp9CTwaDonavgfiSxx5Yzn6ONB7HnIR2CZDyB7JBFUXIHNuA==
+  dependencies:
+    prop-types "^15.5.7"
 
 react-native@0.61.4:
   version "0.61.4"
